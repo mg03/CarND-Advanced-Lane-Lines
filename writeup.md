@@ -18,7 +18,7 @@ The goals / steps of this project are the following:
 [image1]: ./output_images/camera_calibration.jpg
 [image2]: ./output_images/straightline1.jpg
 [image3]: ./output_images/test2.jpg
-[video1]: ./project_output_colour_pipeline_v3_2.mp4
+[video1]: ./project_output_colour_pipeline_v4_5.mp4
 
 ### Camera Calibration
 
@@ -121,11 +121,11 @@ Target File: test2.jpg (third row second image)
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
-I have tried multiple iterations of pipeline code as evidenced by functions: pipeline_v2 and pipeline_v3. The differences are thresholding considerations, masking, etc
+I have tried multiple iterations of pipeline code as evidenced by functions: pipeline_v2, pipeline_v3 and pipeline_v4. The differences are thresholding considerations, masking, etc
 
-Function: pipeline_v3 was used to produce the desired output.
+Function: pipeline_v4 was used to produce the desired output. Added targeted averaging over 12 frames and calculation of running distance average between the edges.
 
-Here's a [link to my video result](./project_video.mp4)
+Here's a [link to my video result](./project_output_colour_pipeline_v4_5.mp4)
 
 ---
 
